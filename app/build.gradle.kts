@@ -6,14 +6,14 @@ plugins {
 android {
     namespace = "com.example.jetpack3_moviesapphomepage"
     compileSdk {
-        version = release(36) {
+        version = release(37) {
             minorApiLevel = 1
         }
     }
 
     defaultConfig {
         applicationId = "com.example.jetpack3_moviesapphomepage"
-        minSdk = 29
+        minSdk = 33
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
